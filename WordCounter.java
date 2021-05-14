@@ -10,7 +10,7 @@ public class WordCounter {
 		Scanner texto = new Scanner (System.in);
 		String a = texto.nextLine();
 
-		System.out.println("Número de palavras: " + a.split(" ").length);
+		System.out.println("Number of written words: " + a.split(" ").length);
 		texto.close();
 		
 		//Only for conference, the array presented:
