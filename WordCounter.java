@@ -1,19 +1,17 @@
 import java.util.Arrays;
 import java.util.Scanner;
 
-//Word Counter first class
-
 public class WordCounter {
 
 	public static void main(String[] args) {
 		
-		Scanner texto = new Scanner (System.in);
-		String a = texto.nextLine();
+		Scanner text = new Scanner (System.in);
+		String a = text.nextLine();
 
 		System.out.println("Number of written words: " + a.split(" ").length);
-		texto.close();
+		text.close();
 		
-		//Only for conference, the array presented:
+		//Only for conference, the array showed:
 		System.out.println(Arrays.toString(a.split(" ")));		
 	}
 }
